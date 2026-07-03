@@ -1,0 +1,8 @@
+{
+  "dataset_roots": [
+    "C:/path/to/private/dataset"
+  ],
+  "combined_dataset_path": "C:/path/to/local/combined_dataset",
+  "prepared_train_val_test_data_yaml_path": "C:/path/to/local/combined_dataset/data.yaml",
+  "final_model_path": "models/best.pt"
+}

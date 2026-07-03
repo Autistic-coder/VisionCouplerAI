@@ -1,0 +1,9 @@
+{
+  "ethernet_cameras": [
+    {
+      "name": "Example RTSP Camera",
+      "url": "rtsp://username:password@camera-host:554/stream1",
+      "enabled": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+ultralytics
+opencv-python
+numpy
+pandas
+pyyaml
+torch
+torchvision
+PySide6
+psutil
+pyinstaller

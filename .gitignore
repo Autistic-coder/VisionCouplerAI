@@ -1,0 +1,117 @@
+# VisionCouplerAI privacy and build hygiene
+
+# Python caches and virtual environments
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+camera_config.json
+dataset_paths.json
+config.local.*
+*.local
+
+# Datasets, frames, annotations, exports, and private media folders
+datasets/
+dataset/
+data/
+images/
+videos/
+frames/
+raw/
+annotations/
+annotated_images/
+annotated_images_classifier/
+annotated_mixed/
+extracted_frames/
+final annotated images/
+hard_frames_annotated/
+hard_frames_for_annotation/
+hd raw photos/
+new videos/
+new videos annotated/
+new videos unannotated/
+raw_photos/
+raw_videos/
+reference_images/
+sorted_unsorted/
+testing/
+unannotated_images_backup/
+New folder/
+
+# Training, inference, and model outputs
+runs/
+outputs/
+predictions/
+weights/
+models/
+checkpoints/
+Ultralytics/
+STANDALONE_README.txt
+
+# Images and video files
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+*.gif
+*.tif
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+
+# Model and export artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.pb
+*.bin
+
+# Annotation/data exchange and office files
+*.csv
+*.xlsx
+*.xls
+*.xml
+*.cache
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Dataset/annotation JSON exports while allowing source config templates
+dataset*/**/*.json
+datasets*/**/*.json
+data*/**/*.json
+annotations*/**/*.json
+annotated*/**/*.json
+raw*/**/*.json
+
+# Node/frontend build artifacts, if added later
+node_modules/
+.next/
+dist/
+build/
+coverage/
+
+# IDE and OS noise
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
